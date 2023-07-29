@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: smartsoft-test-alex
+
+datasource:
+  my-connection:
+    jdbc-url: jdbc:postgresql://localhost:5432/smarttestdb
+    username: postgres
+    password: password
+    maximum-pool-size: 10
+    pool-name: "smart-pool"
+    auto-commit: true
